@@ -1,0 +1,18 @@
+.tab {
+    color: #333;
+    border: none;
+    background-color: transparent;
+    padding: 0 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #eee;
+}
+
+.tab.active {
+    border-bottom: 2px solid #333;
+    cursor: initial;
+}

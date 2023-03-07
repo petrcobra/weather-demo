@@ -1,0 +1,56 @@
+.queryWrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.input {
+    border: 1px solid #333;
+    border-radius: 0.2rem;
+    height: 2rem;
+    line-height: 2rem;
+    width: 20rem;
+    color: #333;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
+.input.listOpen {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list {
+    position: absolute;
+    padding: 0.5rem 0;
+    top: 2rem;
+    display: none;
+    width: 20rem;
+    border: 1px solid #333;
+    border-top: none;
+    border-bottom-right-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    box-sizing: border-box;
+}
+
+
+.list.open {
+    display: block;
+}
+
+.list .item {
+    padding: 0 0.5rem;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    cursor: pointer;
+}
+
+.list .item:hover {
+    background-color: #ccc;
+}
+
+.infoWrapper {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 3rem;
+}
